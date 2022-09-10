@@ -1,0 +1,88 @@
+main{
+	display: flex;
+	margin-left: 80px;
+	margin-bottom: 50px;
+
+}
+
+img{
+	padding: 20px 20px 20px 10px;
+}
+
+/*body{
+	background-image: url(imagenes/fondo3.jpg) ;
+}*/
+
+.mensaje{
+	width: 600px;
+	height: 400px;
+	color: red;
+	padding: 10px 20px 10px 30px;
+	border-radius: 24px;
+	border-color: black;
+	font-size: 20px ;
+}
+
+.mensaje-encriptado{
+	/*background-color: #6C9CEC;*/
+	width: 400px;
+	height: 460px;
+	left: 1000px;
+	top: 40px;
+	border-radius: 24px;
+	padding: 10px 20px 10px 30px;
+	font-size: 20px ;
+	border-color: red;
+	font-family: fantasy;
+	color: red;
+}
+
+.botones-encriptar-desencriptar{
+	display: inline-flex;
+}
+
+
+.boton-encriptar{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	width: 200px;
+	height: 67px;
+	radius: 24px;
+	padding: 24px;
+	gap: 8px;
+	background: #0A3871 ;
+	border-radius: 24px;
+	color: white;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: ;
+}
+
+.boton-desencriptar{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	width: 200px;
+	height: 67px;
+	gap: 8px;
+	background: #0A3871;
+	border-radius: 24px;
+	color: white;
+	text-align: center;
+}
+
+.boton-encriptar:hover{
+	background: blueviolet;
+	transform: scale(1.1);
+
+}
+
+.boton-desencriptar:hover{
+	background: red;
+	transform: scale(1.1);
+
+}
