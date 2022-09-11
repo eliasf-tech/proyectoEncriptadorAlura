@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+
     <title>Encriptador</title>
 </head>
 <body>
     <header>
-        <img src="imagenes/logo.png" alt="Logo de alura inicial a">
+        <img id="alura" src="imagenes/logo.png" alt="Logo de alura inicial a">
     </header>
     <main>
         <section class="texto-encriptar">
@@ -25,6 +26,7 @@
         <section class="texto-ecriptado">
              <textarea class="mensaje-encriptado" cols="25" rows="15" placeholder="Mensaje encriptado"></textarea>
 
+
         <div>
             <button class="copiar-texto" onclick="copiarTexto()">Copiar texto</button>
         </div>
@@ -36,8 +38,11 @@
     
     </main>
     <footer>
-        <img src="">
-        <p class="derechos">&copy; Elias Flores Villegas 2022</p>
+        <div id="pie-pagina">
+            <a href="https://www.linkedin.com/in/elias-flores-villegas-13605210b/"><img class="linkedin" src="/imagenes/linkedin.png"></a>
+            <p class="derechos">&copy; Elias Flores Villegas 2022</p>
+        </div>
+
     </footer>
 
 </body>
