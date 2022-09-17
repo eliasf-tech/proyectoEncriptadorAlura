@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,41 +10,41 @@
 
     <title>Encriptador</title>
 </head>
+
 <body>
+
     <header>
         <img id="alura" src="imagenes/logo.png" alt="Logo de alura inicial a">
     </header>
     <main>
         <section class="texto-encriptar">
-            <textarea class="mensaje" cols="60" rows="15" placeholder="Escriba su mensaje para encriptar aquí"></textarea>
-        <div class="botones-encriptar-desencriptar">
-            <button class="boton-encriptar">Encriptar</button>
-            <button class="boton-desencriptar">Desencriptar</button>
-        </div>
+            <textarea class="mensaje" cols="60" rows="15"
+                placeholder="Escriba su mensaje para encriptar aquí"></textarea>
+            <div class="botones-encriptar-desencriptar">
+                <button class="boton-encriptar">Encriptar</button>
+                <button class="boton-desencriptar">Desencriptar</button>
+            </div>
         </section>
-
-
-        <section class="texto-ecriptado">
-             <textarea class="mensaje-encriptado" cols="25" rows="15" placeholder="Mensaje encriptado"></textarea>
-
-
-        <div>
-            <button class="copiar-texto" onclick="copiarTexto()">Copiar texto</button>
-        </div>
-
-    
+        <section class="texto-encriptado">
+                <textarea class="mensaje-encriptado" id="textarea" cols="45" rows="30"
+                placeholder="Mensaje encriptado"></textarea>
+                <p class="no-encontrado"><strong>Mensaje no fue encontrado</strong></p>
+                <div class="btn-copiar">
+                    <button class="boton-copiar" id="btncopiar">Copiar texto</button>
+                </div>
+                
         </section>
-
-        <script src="script.js"></script>   
-    
     </main>
     <footer>
         <div id="pie-pagina">
-            <a href="https://www.linkedin.com/in/elias-flores-villegas-13605210b/"><img class="linkedin" src="/imagenes/linkedin.png"></a>
+            <a href="https://www.linkedin.com/in/elias-flores-villegas-13605210b/"><img class="linkedin"
+                    src="/imagenes/linkedin.png"></a>
             <p class="derechos">&copy; Elias Flores Villegas 2022</p>
         </div>
-
     </footer>
 
+    <script src="/script.js"></script>
+
 </body>
+
 </html>
