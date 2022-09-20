@@ -15,12 +15,13 @@
 <body>
 
     <header>
-        <img id="alura" src="imagenes/logo.png" alt="Logo de alura inicial a">
+        <img id="alura" src="imagenes/Logo.png" alt="Logo de alura inicial a">
     </header>
     <main>
         <section class="texto-encriptar">
             <textarea class="mensaje" id="text" cols="60" rows="15"
                 placeholder="Escriba su mensaje para encriptar aquí"></textarea>
+                <h6 class="informacion"><img class="vector" src="imagenes/Vector.png"><em>Solo letras minúsculas y sin acentos.</em></h6>
             <div class="botones-encriptar-desencriptar">
                 <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
                 <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
@@ -28,8 +29,9 @@
         </section>
         <section class="texto-encriptado">
                 <textarea class="mensaje-encriptado" id="textarea" cols="45" rows="30"
-                placeholder="Mensaje encriptado"></textarea>
-                <p class="no-encontrado"><strong>Mensaje no fue encontrado</strong></p>
+                placeholder="Mensaje encriptado" readonly></textarea>
+                <h5 class="no-encontrado"><strong>Mensaje no fue encontrado</strong></h5>
+                <h6 class="parrafo">Ingresa el texto que desees incriptar o desencriptar</h6>
                 <div class="btn-copiar">
                     <button class="boton-copiar" id="btncopiar" onclick="copiarTexto()">Copiar texto</button>
                 </div>
@@ -40,9 +42,9 @@
     <footer>
         <div id="pie-pagina">
             <a href="https://www.linkedin.com/in/elias-flores-villegas-13605210b/"><img class="linkedin"
-                    src="/imagenes/linkedin.png"></a>
-            <a href="https://github.com/eliasf-tech"><img class="github" src="/imagenes/github.png"></a>
-            <a href="https://www.facebook.com/efloresvillegas1"><img class="facebook" src="/imagenes/facebook.png"></a>
+                    src="imagenes/linkedin.png"></a>
+            <a href="https://github.com/eliasf-tech"><img class="github" src="imagenes/github.png"></a>
+            <a href="https://www.facebook.com/efloresvillegas1"><img class="facebook" src="imagenes/facebook.png"></a>
             <p class="derechos">&copy; Elias Flores Villegas 2022</p>
         </div>
 
